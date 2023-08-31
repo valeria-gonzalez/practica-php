@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/*-------------template---------------*/
+:root {
+    --white: #fdfffc;
+    --gray: #c8c7d6;
+    --black: #212529;
+    --purple: #e8e5ff;
+    --yellow: #fef4d7;
+    --light-yellow: #f8dda4;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+#page {
+    background-color: var(--white);
+}
+#header {
+    position: sticky;
+    top: 0; /* Top navbar */
+    height: 10%;
+    background-color: var(--white);
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom-style: solid;
+    border-color: var(--gray);
+    z-index: 1;
+}
+#nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    display: inline;
+    word-spacing: 6em;
+}
+.nav-links li a {
+    color: var(--black);
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-img {
+    height: 3em;
+}
+
+#content {
+    margin: 4%;
+    padding: 1%;
+}
+
+#footer {
+    height: 10%;
+    background-color: var(--white);
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-style: solid;
+    border-color: var(--gray);
+}
+
+#footer a {
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#footer img {
+    height: 30px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+/*--------------------index.html---------------*/
+.container {
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+.square-content {
+    background-color: var(--color);
+    display: inline-block;
+    width: var(--width);
+    height: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    border-color: var(--gray);
+    border-style: solid;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 25px;
+    font-size: large;
+}
+
+.square-content h1 {
+    font-weight: 600;
+    line-height: 40px;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.square-content ul li{
+    margin-bottom: 5%;
+}
+
+.square-content ol li{
+    margin-bottom: 2%;
+}
+
+.square-content img {
+    width: 80%;
+    border-radius: 4%;
+    margin: auto;
+    display: block;
+}
+
+.projects {
+    margin: 3%;
+    background-color: var(--yellow);
+    padding: 2% 5%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--gray);
+    overflow: hidden;
+    line-height: 130%;
+}
+
+.projects h1 {
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+.projects-table {
+    border-radius: 10px;
+    font-size: large;
+}
+
+.projects-table td {
+    padding: 3%;
+    background-color: var(--light-yellow);
+    /*border-style: solid;
+    border-color: var(--gray);
+    border-radius: 10px;*/
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.projects-table thead td {
+    font-weight: 800;
+    background-color: var(--white);
+    color: var(--black);
+    /*border-style: solid;
+    
+    border-radius: 10px;*/
+    text-align: center;
+}
+
+#name-column {
+    width: 20%;
+    font-weight: 600;
+}
+
+#second-row td {
+    background-color: var(--yellow);
+}
+
+/*--------- form.html------------------*/
+.content-form {
+    background-color: var(--purple);
+    padding: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--gray);
+    width: 45%;
+}
+
+.double {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.contacts-table {
+    border-radius: 10px;
+    font-size: large;
+}
+
+.contacts-table td {
+    /*padding: 3%;*/
+    background-color: var(--white);
+    /*border-radius: 10px;*/
+    border-style: solid;
+    border-color: var(--gray);
+    
+    /*overflow-wrap: break-word;
+    hyphens: auto;*/
+}

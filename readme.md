@@ -10,3 +10,5 @@
 ## Testing
 
 - Ejecutar: `.\vendor\bin\phpunit tests`
+
+![Alt text](image.png)
